@@ -1,11 +1,11 @@
-const youtube_theme_manifestUri = 'https://example.com/your-stream.mpd';
+const youtube_theme_manifestUri = 'https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd';
 
 // Example ClearKey config (Replace with your real keys and key IDs)
 const clearKeyConfig = {
   'drm': {
     'clearKeys': {
       // Format: 'key-id-in-hex': 'key-in-hex'
-      '1a2b3c4d5e6f7890123456789abcdef0': '0123456789abcdef0123456789abcdef'
+      'ae26845bd33038a9c0774a0981007294': '63ac662dde310cfb4cc6f9b43b34196d'
     }
   }
 };
